@@ -1,23 +1,23 @@
 @font-face {
-  font-family: "HK_Grotesk";
-  src: url("../fonts/HK_Grotesk/HKGrotesk-Regular.woff") format("woff"),
-    url("../fonts/HK_Grotesk/HKGrotesk-Regular.woff2") format("woff2");
+  font-family: "HK Grotesk R";
+  src: url("../fonts/HKGrotesk-Regular.woff") format("woff"),
+    url("../fonts/HKGrotesk-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "HK_Grotesk";
-  src: url("../fonts/HK_Grotesk/HKGrotesk-Medium.woff") format("woff"),
-    url("../fonts/HK_Grotesk/HKGrotesk-Medium.woff2") format("woff2");
+  font-family: "HK Grotesk M";
+  src: url("../fonts/HKGrotesk-Medium.woff") format("woff"),
+    url("../fonts/HKGrotesk-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "HK_Grotesk";
-  src: url("../fonts/HK_Grotesk/HKGrotesk-Bold.woff") format("woff"),
-    url("../fonts/HK_Grotesk/HKGrotesk-Bold.woff2") format("woff2");
+  font-family: "HK Grotesk B";
+  src: url("../fonts/HKGrotesk-Bold.woff") format("woff"),
+    url("../fonts/HKGrotesk-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
