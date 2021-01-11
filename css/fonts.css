@@ -24,8 +24,8 @@
 }
 @font-face {
   font-family: "Open_Sans";
-  src: url("../fonts/Open_Sans/OpenSans-Regular.woff") format("woff"),
-    url("../fonts/Open_Sans/OpenSans-Regular.woff2") format("woff2");
+  src: url("../fonts/Open_Sans/OpenSans.woff") format("woff"),
+    url("../fonts/Open_Sans/OpenSans.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
