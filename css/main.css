@@ -3,20 +3,18 @@
   *:before, *:after {
     box-sizing: border-box; }
 
+body {
+  font-family: "Open_Sans"; }
+
 .container {
   margin: 0 auto;
   padding: 0;
-  max-width: 1140px;
+  max-width: 1280px;
   width: 100%;
   background: #FFFFFF; }
 
-.h1 {
-  font-family: "HK_Grotesk", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 25px;
-  color: #183B56; }
+.title {
+  font-family: "HK_Grotesk", sans-serif; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -330,4 +328,103 @@ template {
  */
 [hidden] {
   display: none; }
+
+.header {
+  padding: 36px 0 58px 0; }
+  .header-container {
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .header-list {
+    display: flex;
+    align-items: center;
+    margin-left: auto; }
+    .header-list__link {
+      list-style-type: none; }
+      .header-list__link:not(:last-child) {
+        margin-right: 40px; }
+      .header-list__link:nth-child(5) {
+        margin-right: 50px; }
+    .header-list__a {
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      color: #183B56; }
+      .header-list__a:hover {
+        opacity: 0.8; }
+      .header-list__a:active {
+        opacity: 0.8; }
+      .header-list__a:focus {
+        opacity: 0.8; }
+  .header-button {
+    background: transparent;
+    cursor: pointer;
+    max-width: 101px;
+    min-height: 48px;
+    padding: 13px 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1565D8;
+    border: 2px solid #1565D8;
+    filter: drop-shadow(0px 10px 25px rgba(21, 37, 72, 0.1));
+    border-radius: 8px; }
+
+.hero-container {
+  background-image: url(../img/hero__bgc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  padding: 62px 0 46px 107px; }
+
+.hero-lable {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #36B37E;
+  padding: 6px 16px;
+  background: rgba(54, 179, 126, 0.1);
+  border-radius: 2000px;
+  margin-bottom: 22px; }
+
+.hero-title {
+  font-family: "HK_Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 121%;
+  letter-spacing: 0.2px;
+  color: #183B56;
+  max-width: 425px;
+  margin-bottom: 28px; }
+
+.hero-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 180%;
+  color: #5A7184;
+  max-width: 652px;
+  margin-bottom: 52.5px; }
+
+.hero__button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background: #183B56;
+  border-radius: 8px;
+  max-width: 259px;
+  min-height: 55px;
+  padding: 15px 40px;
+  text-decoration: none; }
+  .hero__button:hover {
+    opacity: 0.8; }
 /*# sourceMappingURL=main.css.map */
