@@ -16,6 +16,7 @@ body
 	width: 100%
 	background: #FFFFFF
 .title
+	margin: 0
 	font-feature-settings: "locl" 0
 	font-family: "HK Grotesk B", sans-serif
 .grotesk-medium
@@ -24,3 +25,18 @@ body
 .grotesk-regular
 	font-feature-settings: "locl" 0
 	font-family: "HK Grotesk R", sans-serif
+
+// Стилизация svg-иконок
+.icon
+	&__btn-arrow
+		fill: $main-blue
+		width: 13px
+		height: 16px
+		transition: margin ease-out 0.3s
+
+// Ховер-эффекты
+@media (min-width: 993px)
+	.new-button:hover .icon__btn-arrow
+		fill: $main-blue-hover
+		margin-left: 4px
+		transition: margin ease-out 0.3s
