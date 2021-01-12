@@ -1,5 +1,8 @@
 .new
   margin-bottom: 145px
+  &-container
+    width: 1140px
+    margin: 0 auto
   &-wrapper
     display: flex
     justify-content: space-between
@@ -64,6 +67,8 @@
 // Адаптив
 @media (max-width: 1200px)
   .new
+    &-container
+      max-width: 960px
     &-cards
       grid-template-columns: repeat(2, 230px)
 @media (max-width: 992px)
@@ -80,8 +85,17 @@
 @media (max-width: 768px)
   .new
     margin-bottom: 80px
+    &-container
+      width: 672px
     &-cards
       grid-template-columns: 322px 320px
+@media (max-width: 767px)
+  .new
+    &-container
+      max-width: 576px
+      width: 90.625%
+    &-cards
+      grid-template-columns: repeat(2, 1fr)
 @media (max-width: 576px)
   .new
     margin-bottom: 110px
