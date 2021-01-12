@@ -19,6 +19,7 @@ body
 	margin: 0
 	font-feature-settings: "locl" 0
 	font-family: "HK Grotesk B", sans-serif
+	letter-spacing: 0.2px
 .grotesk-medium
 	font-feature-settings: "locl" 0
 	font-family: "HK Grotesk M", sans-serif
@@ -33,6 +34,18 @@ body
 		width: 13px
 		height: 16px
 		transition: margin ease-out 0.3s
+	&__slider-btn
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		fill: $title-color
+		width: 14px
+		height: 18px
+		transition: margin ease-out 0.3s
+		&_prev
+			fill: #959EAD
+			transform: rotate(180deg) translate(50%, 50%)
 
 // Ховер-эффекты
 @media (min-width: 993px)
@@ -40,3 +53,6 @@ body
 		fill: $main-blue-hover
 		margin-left: 4px
 		transition: margin ease-out 0.3s
+	.stories-slider__button:hover .icon__slider-btn
+		fill: $main-blue-hover
+		transition: ease-out 0.3s
