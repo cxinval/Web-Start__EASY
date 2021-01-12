@@ -1,4 +1,5 @@
 .hero
+  padding-bottom: 120px
   &-container
     background-image: url(../img/hero__bgc.jpg)
     background-repeat: no-repeat
@@ -15,7 +16,7 @@
     padding: 6px 16px
     background: rgba(54, 179, 126, 0.1)
     border-radius: 2000px
-    margin-bottom: 22px
+    margin-bottom: 29px
   &-title
     font-feature-settings: "locl" 0
     font-family: 'HK Grotesk B', sans-serif
@@ -26,7 +27,7 @@
     letter-spacing: 0.2px
     color: #183B56
     max-width: 425px
-    margin-bottom: 28px
+    margin-bottom: 32px
   &-subtitle
     font-style: normal
     font-weight: normal
@@ -36,6 +37,7 @@
     max-width: 652px
     margin-bottom: 52.5px
   &__button
+    display: inline-block
     font-style: normal
     font-weight: bold
     font-size: 18px
@@ -47,5 +49,28 @@
     min-height: 55px
     padding: 15px 40px
     text-decoration: none
+    margin-bottom: 46.5px
+    
     &:hover
       opacity: 0.8
+  &-wrap
+    display: flex
+    align-items: center
+    max-width: 462px
+    justify-content: space-between
+    &-block
+      display: flex
+      align-items: center
+    &__icon
+      border: 0.75px solid #1565D8
+      border-radius: 12px
+      background: transparent
+      max-width: 36px
+      min-height: 36px
+      padding: 7.5px
+      display: flex
+      align-items: center
+      justify-content: center
+      margin-right: 8px
+      
+
