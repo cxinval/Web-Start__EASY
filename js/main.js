@@ -1,6 +1,7 @@
 var storiesSlider = new Swiper(".stories-slider", {
   loop: true,
   effect: "slide",
+  autoHeight: true,
 
   navigation: {
     nextEl: ".stories-slider__button_next",
