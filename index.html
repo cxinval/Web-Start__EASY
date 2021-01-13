@@ -304,8 +304,40 @@
     </section>
     <!-- /.stories -->
 
-    <!-- Only to push once -->
+    <!-- Subscribe -->
+    <section class="subscribe">
+      <div class="subscribe-container">
+        <div class="subscribe-info">
+          <h2 class="title subscribe-info__title">Подпишитесь</h2>
+          <p class="subscribe-info__text">
+            Напишите свой адрес электронной почты. Мы&nbsp;будем&nbsp;присылать вам новости из мира
+            моды.
+          </p>
+        </div>
+        <!-- /.subscribe-info -->
+
+        <form action="send.php" method="POST" class="subscribe-form">
+          <div class="subscribe-form__input-group">
+            <input
+              type="email"
+              class="subscribe-form__input"
+              name="email"
+              placeholder="Ваш Email"
+              required
+            />
+          </div>
+          <!-- /.subscribe-form__input-group -->
+          <input type="hidden" name="formName" value="subscribe" />
+          <button class="subscribe-form__button">Подписаться</button>
+        </form>
+        <!-- /.subscribe-form -->
+      </div>
+      <!-- /.subscribe-container -->
+    </section>
+    <!-- /.subscribe -->
+
     <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
