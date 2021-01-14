@@ -46,6 +46,11 @@ body
 		&_prev
 			fill: #959EAD
 			transform: rotate(180deg) translate(50%, 50%)
+	&__footer
+		width: 100%
+		height: 100%
+		fill: $text-color
+		transition: ease-out 0.3s
 
 // Ховер-эффекты
 @media (min-width: 993px)
@@ -54,5 +59,8 @@ body
 		margin-left: 4px
 		transition: margin ease-out 0.3s
 	.stories-slider__button:hover .icon__slider-btn
+		fill: $main-blue-hover
+		transition: ease-out 0.3s
+	.footer-social__item:hover	.icon__footer
 		fill: $main-blue-hover
 		transition: ease-out 0.3s
